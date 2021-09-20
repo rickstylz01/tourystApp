@@ -1,0 +1,44 @@
+{
+  "name": "tour-info-group-node",
+  "version": "1.0.0",
+  "description": "Welcome!",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon",
+    "prod": "NODE_ENV=production nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reskillamericans/Tour-Info-Group-Node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reskillamericans/Tour-Info-Group-Node/issues"
+  },
+  "homepage": "https://github.com/reskillamericans/Tour-Info-Group-Node#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-flash": "^0.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "express-validator": "^6.12.0",
+    "faker": "^5.5.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.14",
+    "nodemailer": "^6.6.2",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^6.1.0",
+    "superagent": "^6.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
